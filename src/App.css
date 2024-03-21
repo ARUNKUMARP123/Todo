@@ -1,0 +1,64 @@
+.button-DU{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.inputbox{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.Input-mainBox h5{
+    padding: 10px;
+    text-align: center;
+    margin: 50px;
+}
+.box{
+    border-radius: 8px;
+}
+.filter-status{
+    width: 300px;
+    justify-content:space-around;
+}
+.s2{
+    background-color: rgb(245, 246, 240);
+    border-radius: 5px;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    color:brown;
+   
+    overflow: hidden;
+}
+.s1{
+   margin-left: 5px;
+}
+body{
+    background-color: rgb(174, 249, 174);
+}
+.box{
+    background-color: rgb(141, 230, 141);
+}
+
+
+    /* https://www.animotion.dev */
+
+.box:hover {
+    -webkit-box-shadow: -3px 16px 41px 1px rgba(0,0,0,0.41);
+-moz-box-shadow: -3px 16px 41px 1px rgba(0,0,0,0.41);
+box-shadow: -3px 16px 41px 1px rgba(0,0,0,0.41);
+    transform-origin: 50% 50%;
+    animation: pulse-animation 1s ease-in-out 0s 1 normal both running;
+}
+
+@keyframes pulse-animation {
+
+    0%,
+    100% {
+        transform: scaleX(1);
+    }
+
+    50% {
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+}
