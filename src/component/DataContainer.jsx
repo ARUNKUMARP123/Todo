@@ -30,7 +30,7 @@ setDescription(""),setName("")
    <div className="container  px-4 px-lg-5 mt-5">
                 <div className="row gx-4  gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                  {Copydata.map((data,index)=>(
-                    <div key={`${data.id}-${index}`}  className="col-3 p-3  g-2" style={{color:"black"}}>
+                    <div key={`${data.id}-${index}`}  className="col-12 col-md-4 col-lg-3 p-3  g-2" style={{color:"black"}}>
                     <div className="box  p-3">
                     <p>Id<span className="s1">: <span  className="s2">{data.id}</span></span>  </p>
                     <p className="name">Name<span className="s1">: <span  className="s2">{data.name}</span></span> </p> 
